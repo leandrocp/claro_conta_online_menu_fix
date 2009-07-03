@@ -25,11 +25,12 @@
 // ==UserScript==
 // @name           Claro Conta Online Menu Fix
 // @namespace      claro.com.br
-// @description    Cria um menu no topo do site Claro Conta Online (https://contaonlinepf.claro.com.br), idêntico ao menu original, que não funciona no Firefox.
-// @author				 Leandro Cesquini Pereira
+// @description    Cria um menu no topo do site Claro Conta Online (https://contaonlinepf.claro.com.br),
+//                 idêntico ao menu original, que não funciona no Firefox.
+// @author		   Leandro Cesquini Pereira
 // @include        https://contaonlinepf.claro.com.br/webbow/*
-// @exclude				 https://contaonlinepf.claro.com.br/webbow/login/initPF_oqe.do
-// @exclude				 https://contaonlinepf.claro.com.br/webbow/login/logoutPJ.do
+// @exclude		   https://contaonlinepf.claro.com.br/webbow/login/initPF_oqe.do
+// @exclude		   https://contaonlinepf.claro.com.br/webbow/login/logoutPJ.do
 // ==/UserScript==
 
 function addGlobalStyle(css) {
